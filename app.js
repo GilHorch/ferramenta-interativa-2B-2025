@@ -6,7 +6,6 @@ function criaCartao(categoria, pergunta, resposta) {
     let cartao = document.createElement('article')
     cartao.className = 'cartao'
 
-
     //17-09-25//
     cartao.innerHTML = `
 <div class="cartao__conteudo">
@@ -19,9 +18,7 @@ function criaCartao(categoria, pergunta, resposta) {
             <p> ${resposta}</p>
         </div>
 </div>
-
 `
-
 container.appendChild(cartao)
 
 
